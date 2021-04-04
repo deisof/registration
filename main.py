@@ -6,7 +6,7 @@ from data.jobs import Jobs
 from forms.users import RegisterForm
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'you_will_never_pass_my_password'
+app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
 
 @app.route('/')
